@@ -1,0 +1,25 @@
+.vagrant
+wp-content/uploads
+wp-content/cache
+wp-content/wflogs
+_project/vendor
+.sass-cache*
+*/bower_components
+*.sassc
+*.codekit
+uploads
+cache
+.DS_Store
+# _project/_public/wp-content/wflogs
+# _project/_public/license.txt
+# _project/_public/readme.html
+# _project/_public/wp-config-sample.php
+_project/_public
+
+
+*~
+*.sass-cache
+.DS_Store
+Thumbs.db
+_project/_frontend/node_modules
+.env

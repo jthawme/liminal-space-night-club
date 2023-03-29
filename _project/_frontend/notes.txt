@@ -1,0 +1,60 @@
+
+
+
+
+QUIZ
+----
+
+[x] bundle axios into libs.js
+
+[x] Show preamble page before question 1
+
+[x] make all answer buttons the same width
+
+[x] Add back button
+[x] Add quit/restart button
+
+[x] record quiz interactions:
+	[x] specific answers to all questions
+	[x] start time of whole quiz
+	[x] end time of whole quiz
+
+[x] results screen
+	[x] Show appropriate results text at the end of the game
+	[x] send game data to airtable
+
+[x] BUG: when navigating back, need to reset score, or easier, score should be totted up at the end
+
+[x] idle timeout warning box 'continue / quit now'
+	[x] use timeout seconds value from JSON
+
+[x] BUG: requestAnimationFrame loop gets doubled when the game resets
+
+[x] add a global dot/line scale to fx animation
+	[x] fade in from 0 to 1 so the fx can smoothly fade in
+	[x] reverse, 1 to 0, when you want to fade out the animation
+
+[x] send partially completed game data on timeout or restart
+
+
+
+
+FEEDBACK FORM
+-------------
+
+[x] use same JS bundle, just a different html template and entry command App.init('feedback');
+
+[x] new background colours
+[x] new title screen layout, new question screen layout
+
+
+
+
+
+FRONT PAGE
+----------
+
+[x] logo with attract screen
+
+
+
