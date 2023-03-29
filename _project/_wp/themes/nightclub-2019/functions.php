@@ -43,3 +43,13 @@ if( function_exists('acf_add_options_page') ) {
 
 
 }
+
+function redirect_homepage() {
+    if( ! is_home() && ! is_front_page() )
+        return;
+
+    wp_redirect( '/chrono-clinic/', 301 );
+    exit;
+}
+
+add_action( 'template_redirect', 'redirect_homepage' );
